@@ -29,7 +29,7 @@ if __name__ == '__main__':
     for _ in range(n):
         ar = list(map(int,input()))
         graph.append(ar)
-
+    print(graph)
     findRoadMiro(graph,[0,0])
     print(graph[n-1][m-1])
 """
